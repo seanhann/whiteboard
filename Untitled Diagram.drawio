@@ -1,1 +1,176 @@
-<mxfile host="app.diagrams.net" modified="2021-12-15T01:19:53.907Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" version="15.9.6" etag="o-0tIN72n4tL6Vo_7sAw" type="github"><diagram id="uWr9mc27ScDOA_eEKhBi">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-12-15T13:38:08.639Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36" etag="hHv5ykHC0gddrzNAfeIk" version="15.9.6" type="github">
+  <diagram id="uWr9mc27ScDOA_eEKhBi" name="Page-1">
+    <mxGraphModel dx="1284" dy="1936" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-7" value="Partner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="-210" width="120" height="800" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-11" value="HL7&amp;nbsp; Layer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="-490" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mrlRSA-LS1tPbwGcKhvI-11" target="mrlRSA-LS1tPbwGcKhvI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="260" as="sourcePoint" />
+            <mxPoint x="410" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-29" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrlRSA-LS1tPbwGcKhvI-12">
+          <mxGeometry x="-0.1914" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.621;entryY=0.018;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="mrlRSA-LS1tPbwGcKhvI-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="-690" as="sourcePoint" />
+            <mxPoint x="390" y="210" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-28" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrlRSA-LS1tPbwGcKhvI-14">
+          <mxGeometry x="-0.0344" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.805;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mrlRSA-LS1tPbwGcKhvI-17" target="mrlRSA-LS1tPbwGcKhvI-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="520" as="sourcePoint" />
+            <mxPoint x="160" y="365" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-21" value="HL7 Message" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrlRSA-LS1tPbwGcKhvI-20">
+          <mxGeometry x="-0.0534" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-22" value="VPN" style="endArrow=classic;html=1;rounded=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.316;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="mrlRSA-LS1tPbwGcKhvI-49" target="mrlRSA-LS1tPbwGcKhvI-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="980" y="-680" as="sourcePoint" />
+            <mxPoint x="300" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-24" value="PHP &amp; Laravel App" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="710" y="-210" width="1510" height="760" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-17" value="Sync out Layer" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="325" y="60" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-3" value="Sync Layer" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="40" y="60" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-2" value="10 sync servers" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.multi-document;whiteSpace=wrap;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-3">
+          <mxGeometry x="60" y="60" width="88" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-1" value="" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-3">
+          <mxGeometry x="80" y="150" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-42" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0.88;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="mrlRSA-LS1tPbwGcKhvI-3" source="mrlRSA-LS1tPbwGcKhvI-2" target="mrlRSA-LS1tPbwGcKhvI-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="30" as="sourcePoint" />
+            <mxPoint x="-100" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-43" value="Provider &lt;br&gt;Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="220" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-44" value="Calendar &lt;br&gt;Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="50" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-45" value="Appointment Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="390" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-46" value="Insurance Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="570" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-47" value="Visit Reason Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="750" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-48" value="Admin Portal" style="swimlane;startSize=20;horizontal=1;containerType=tree;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="610" y="60" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-50" value="Provider Portal" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="910" y="60" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-51" value="User Portal" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="1190" y="60" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-52" value="Session Based Auth Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="950" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-53" value="Cron&amp;nbsp; Service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="1305" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-54" value="I18N&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="1140" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-55" value="User/Provider Notification Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="220" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-56" value="User/Patient&lt;br&gt;Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="390" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-57" value="User Action Track Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="570" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-58" value="WAT &lt;br&gt;Component" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="50" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-59" value="SSO&lt;br&gt;Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="950" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-60" value="Channel &lt;br&gt;Component" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="750" y="600" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-66" value="Logging Service" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="mrlRSA-LS1tPbwGcKhvI-24">
+          <mxGeometry x="1140" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-33" value="NIFI &amp; iHub" style="swimlane;startSize=20;horizontal=1;containerType=tree;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-595" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mrlRSA-LS1tPbwGcKhvI-7" target="mrlRSA-LS1tPbwGcKhvI-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-39" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.258;entryY=0.048;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="mrlRSA-LS1tPbwGcKhvI-33" target="mrlRSA-LS1tPbwGcKhvI-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="620" y="150" as="sourcePoint" />
+            <mxPoint x="780" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-40" value="HTTPS" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrlRSA-LS1tPbwGcKhvI-39">
+          <mxGeometry x="-0.3781" y="5" relative="1" as="geometry">
+            <mxPoint x="-1" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-41" value="Pull data from Partner" style="endArrow=classic;html=1;rounded=0;entryX=0.126;entryY=1.033;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="mrlRSA-LS1tPbwGcKhvI-33" target="mrlRSA-LS1tPbwGcKhvI-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="-160" as="sourcePoint" />
+            <mxPoint x="670" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-49" value="Partner" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="690" y="-760" width="900" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-61" value="Prod DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="675" y="800" width="305" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-62" value="Sync DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1070" y="810" width="305" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-63" value="Click Stream DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1480" y="810" width="305" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-64" value="da insights" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="1880" y="800" width="180" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-65" value="Redis" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="950" y="580" width="140" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="mrlRSA-LS1tPbwGcKhvI-67" value="Elastic Search" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="1460" y="590" width="280" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
